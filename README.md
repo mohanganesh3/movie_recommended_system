@@ -1,20 +1,20 @@
-#Movie Recommendation System 🎥🍿
+# Movie Recommendation System 🎥🍿
 
 Welcome to the Movie Recommendation System repository! This project is focused on recommending movies using a content-based approach, analyzing movie features such as genre, director, and actors to provide personalized suggestions based on your preferences.
 
-#🚀 Key Features
+# 🚀 Key Features
 
 	•	Content-Based Recommendations: Suggests movies similar to the ones you love based on their attributes.
 	•	Movie Feature Analysis: Recommends films by comparing genres, directors, cast, and more.
 	•	Efficient & Scalable: Designed to handle large datasets while maintaining performance.
 
-#Dataset:
+# Dataset:
 
 The dataset used in this project is the TMDB Movie Metadata dataset. You can download it from Kaggle and place the tmdb-movie-metadata.csv file in the data directory.
 
 link: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
-#🧠 How It Works (Content-Based Filtering)
+# 🧠 How It Works (Content-Based Filtering)
 
 This movie recommendation system operates using content-based filtering, which compares the content of the movies to suggest similar ones. The main idea is to find movies with similar features (e.g., genre, director, storyline, etc.) by calculating the cosine similarity between them.
 
@@ -38,6 +38,6 @@ By analyzing these attributes and finding similarities, the system provides movi
 This section now clearly explains the content-based filtering process with tokenization, vectorization, and cosine similarity, while also covering how it evaluates different features like genres, directors, and storylines.
 
 
-#🌟 Acknowledgments
+# 🌟 Acknowledgments
 
 	•	Special thanks to TMDB for providing the movie metadata, and to Kaggle for hosting the dataset.
